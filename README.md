@@ -25,13 +25,13 @@
 #### 짧은 시연 영상 (유튜브 링크, 1분 56초)
 [<img src="https://user-images.githubusercontent.com/78259314/230733200-3fe3eac4-bf42-4095-92c3-aa03f676e61c.png">](https://youtu.be/CHYVsNMhxLk?t=0s)
 
-<br><br>
+<br>
 
 ## 사용 기술
 - 백엔드 : Spring Boot, Spring Cloud(Eureka, Gateway)
 - 데이터베이스 : MySQL
 - 캐시 : Redis
-- 배포 : Docker, AWS EC2, AWS S3
+- 배포 : Docker, AWS EC2, AWS RDS, AWS S3
 - 푸시 알림 : FCM
 <br>
 
@@ -55,10 +55,37 @@
 <br>
 
 ## 배포
-
+|서비스|URL|포트 풀|
+|---|---|---|
+|전체(Gateway)|http://${AWS-public-IP}|:8000|
+|인증|http://${AWS-public-IP}|:8011~8019|
+|유저|http://${AWS-public-IP}|:8021~8029|
+|채팅|http://${AWS-public-IP}|:8031~8039|
+|푸시|http://${AWS-public-IP}|:8041~8049|
+##### Scale-out 가능하도록 포트 풀을 지정하였음.
 <br>
 
-## 회고
+## 성장
+> ### JWT 토큰 기반 인증 
+> - Access/Refresh 토큰 기반 로그인
+> - Jwt 토큰 발급 / 만료 
+<br>
+
+> ### GlobalExceptionHandler & ErrorCode
+> - 예외 처리 및 응답 구현 
+<br>
+
+> ### 이메일 - SMTP
+> - 이메일 인증 구현, 랜덤 코드 발급 구현
+<br>
+
+> ### Redis, FCM
+> - 캐시, TTL(Time-To-Live, 랜덤 코드에 적용)
+> - 푸시 알림 기능 활용
+<br>
+
+> ### Docker, AWS
+> - 배포, 컨테이너 경험
 
 <br>
 
