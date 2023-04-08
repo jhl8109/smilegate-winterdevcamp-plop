@@ -12,17 +12,20 @@
 [5. 상세 기능](#상세-기능)<br>
 [6. 서버별 주요 코드](#서버별-주요-코드)<br>
 [7. 회고](#회고)<br>
-[8. Docs](#docs)<br><br>
+[8. Docs](#docs)<br>
 
 ## 목표
 <p align="center"><img width="800" alt="스크린샷 2023-04-09 오전 1 30 07" src="https://user-images.githubusercontent.com/78259314/230732350-6e54e7f4-1720-42f3-813b-ab403289e725.png"></p>
+<br>
 
 ## 주요 기능
 <p align="center"><img width="800" alt="스크린샷 2023-04-09 오전 1 29 29" src="https://user-images.githubusercontent.com/78259314/230732323-b19e5e28-e0b1-42e3-b293-ab54d082007e.png"></p>
 <br>
 
 #### 짧은 시연 영상 (유튜브 링크, 1분 56초)
-[![Video](https://user-images.githubusercontent.com/78259314/230733200-3fe3eac4-bf42-4095-92c3-aa03f676e61c.png)](https://youtu.be/CHYVsNMhxLk?t=0s)<br>
+[<img src="https://user-images.githubusercontent.com/78259314/230733200-3fe3eac4-bf42-4095-92c3-aa03f676e61c.png">](https://youtu.be/CHYVsNMhxLk?t=0s)
+
+<br><br>
 
 ## 사용 기술
 - 백엔드 : Spring Boot, Spring Cloud(Eureka, Gateway)
@@ -51,8 +54,13 @@
 - [푸시 서버](https://github.com/jhl8109/smilegate-winterdevcamp-plop/tree/main/src/server/push)
 <br>
 
+## 배포
+
+<br>
+
 ## 회고
 
+<br>
 
 ## Docs
 - [PMP](https://github.com/jhl8109/smilegate-winterdevcamp-plop/blob/main/docs/%EA%B2%BD%EB%82%A8_Plop_PMP.pdf)
