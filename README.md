@@ -9,10 +9,11 @@
 [2. 주요 기능](#주요-기능)<br>
 [3. 사용 기술](#사용-기술)<br>
 [4. 아키텍처](#아키텍처)<br>
-[5. 상세 기능](#상세-기능)<br>
-[6. 서버별 주요 코드](#서버별-주요-코드)<br>
-[7. 개인 성장](#개인-)<br>
-[8. Docs](#docs)<br>
+[5. DB 스키마](#db-스키마)<br>
+[6. 상세 기능](#상세-기능)<br>
+[7. 서버별 주요 코드](#서버별-주요-코드)<br>
+[8. 개인 성장](#개인-성장)<br>
+[9. Docs](#docs)<br>
 
 ## 목표
 <p align="center"><img width="800" alt="스크린샷 2023-04-09 오전 1 30 07" src="https://user-images.githubusercontent.com/78259314/230732350-6e54e7f4-1720-42f3-813b-ab403289e725.png"></p>
@@ -39,6 +40,10 @@
 |상세 아키텍처|배포 아키텍처|
 |---|---|
 |<img alt="스크린샷 2023-04-09 오전 1 36 21" src="https://user-images.githubusercontent.com/78259314/230732623-49a5034e-20e2-4d3d-8ca1-0b6f5128feef.png">|<img alt="스크린샷 2023-04-09 오전 1 35 53" src="https://user-images.githubusercontent.com/78259314/230732608-1d69e8c8-2004-4750-8688-2c7278cfb779.png">|
+<br>
+
+## DB 스키마
+![image](https://user-images.githubusercontent.com/78259314/230767396-092a899d-4bc3-4761-83c0-972e235c9b54.png)
 <br>
 
 ## 상세 기능
